@@ -1,4 +1,5 @@
-# MYSHELL
+# MyShell
+脚本为网上摘录
 #### git-author-rewrite.sh
 批量修改Git历史的邮箱地址
 #### git-author-rewrite-and-push.sh  
