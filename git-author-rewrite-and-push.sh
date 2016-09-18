@@ -1,9 +1,15 @@
 #!/bin/sh
 
+if [ $# != 3 ];
+then
+    echo 'usage: $0 old_email correct_name correct_email'
+    exit 1
+fi
+
 git filter-branch --env-filter '
-OLD_EMAIL="oldemail@example.com"
-CORRECT_NAME="new name"
-CORRECT_EMAIL="newemail@example.com"
+OLD_EMAIL=$1
+CORRECT_NAME=$2
+CORRECT_EMAIL=$3
 
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
