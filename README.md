@@ -4,3 +4,6 @@
 批量修改Git历史的邮箱地址
 #### git/git-author-rewrite-and-push.sh  
 在git-author-rewrite.sh基础上直接Push到服务器上
+
+#### shadowsocks.sh
+调用shadowsocks脚本
