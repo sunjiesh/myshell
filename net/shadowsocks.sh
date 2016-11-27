@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 if [ $# != 2 ] ; then
 echo "USAGE: $0 IP PASSWORD"
 echo " e.g.: $0 127.0.0.1 password"
